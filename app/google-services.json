@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "807996038093",
+    "firebase_url": "https://ocrfirebaseproject-eecfd.firebaseio.com",
+    "project_id": "ocrfirebaseproject-eecfd",
+    "storage_bucket": "ocrfirebaseproject-eecfd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:807996038093:android:7c2d2eac2f3cca89000284",
+        "android_client_info": {
+          "package_name": "com.proxima.ocr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "807996038093-dlpec4kmbaipvpiu6nfb5mmfic52foao.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.proxima.ocr",
+            "certificate_hash": "aea02864b14e370dcaefb27fca8a04b23cbc92a0"
+          }
+        },
+        {
+          "client_id": "807996038093-me8h4016nt6vtfm0q0furlef5vn2cils.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnQPlR_rwkVoClYjKs8mXL0XGn1sVx7dA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "807996038093-me8h4016nt6vtfm0q0furlef5vn2cils.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_capture"
+            android:text="Recognize"
+            android:layout_alignParentBottom="true"/>
+        <com.wonderkiln.camerakit.CameraView
+            xmlns:camerakit="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            camerakit:ckFacing="back"
+            android:adjustViewBounds="true"
+            android:keepScreenOn="true"
+            camerakit:ckFocus="continuous"
+            camerakit:ckFlash="torch"
+            camerakit:ckPermissions="strict"
+            android:layout_height="500dp"
+            android:id="@+id/camera_view"/>
+        <com.proxima.ocr.Helper.GraphicOverlay
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:id="@+id/graphic_overlay"/>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/graphic_overlay">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txt"
+                    android:layout_above="@+id/btn_detect"/>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </RelativeLayout>
+
+</RelativeLayout>
